@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jnative-hook-2.1.0">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/jnativehook-2.1.0.zip!/jnativehook/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/jnativehook-2.1.0.zip!/jnativehook/src/java" />
+      <root url="jar://$USER_HOME$/Desktop/jnativehook-2.1.0.zip!/jnativehook/src/test" />
+    </SOURCES>
+  </library>
+</component>
