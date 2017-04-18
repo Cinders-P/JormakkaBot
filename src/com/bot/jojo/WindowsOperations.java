@@ -20,7 +20,7 @@ public class WindowsOperations {
     }
 
     public boolean isRed(Color c) {
-        // makes sure its not dark grey which will have red > REQ_COLOR_VALUE
+        // makes sure its not dark grey which will also have red > REQ_COLOR_VALUE
         return c.getRed() > REQ_COLOR_VALUE && c.getBlue() < 20 && c.getGreen() < 20;
     }
 

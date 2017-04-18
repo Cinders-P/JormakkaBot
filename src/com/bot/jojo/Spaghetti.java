@@ -94,14 +94,13 @@ public class Spaghetti {
                   isZezeniaFocused = util.checkZezFocused();
                   spellDelay = rand.nextInt(100) + 700;
                   potionDelay = rand.nextInt(100) + 700;
-                  if (isZezeniaFocused && (windowRect == null || !windowRect
-                          .equals(util.getZezArea()))) {
+                  if (isZezeniaFocused && (windowRect == null || !windowRect.equals(util.getZezArea()))) {
                       updateRect();
                   }
               }
           },
           0,
-          500); // run every second afterwards
+          200);
     }
 
     public void toggleHpSpell() {
@@ -169,7 +168,7 @@ public class Spaghetti {
                 }
             }
 
-            y = y - 10;
+            y = y - 5;
             if (y <= rect.top && yEnd == 0)
                 throw new RuntimeException("Failure identifying health bar.");
         }
